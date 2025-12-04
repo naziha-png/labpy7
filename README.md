@@ -1,10 +1,11 @@
-# Praktikum 7 – Object Oriented Programming (OOP)
+# Praktikum 7 – Object Oriented Programming (OOP)  
 
 **Nama:** Naziha Raiqi Aribino<br>
-**Kelas:** TI.25.A2<br>
+**Kelas:** TI. 25. A2<br>
 **NIM:** 312510232<br>
 **Mata Kuliah:** Pengantar Pemrograman<br>
-**Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.<br>
+**Dosen:** Agung Nugroho, S.Kom., M.Kom.<br>
+
 ---
 
 ## **Judul Praktikum: Program Daftar Nilai Mahasiswa Menggunakan Class (OOP)**
