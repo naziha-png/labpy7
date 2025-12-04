@@ -1,10 +1,10 @@
 # Praktikum 7 – Object Oriented Programming (OOP)
 
-**Nama:** Naziha Raiqi Aribino<br>
-**Kelas:** TI.25.A2<br>
-**NIM:** 312510232<br>
-**Mata Kuliah:** Pengantar Pemrograman<br>
-**Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.<br>
+**Nama:** Naziha Raiqi Aribino
+**Kelas:** TI.25.A2
+**NIM:** 312510232
+**Mata Kuliah:** Pengantar Pemrograman
+**Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.
 
 ---
 
@@ -12,6 +12,7 @@
 
 **Program Daftar Nilai Mahasiswa Menggunakan Class (OOP)**
 
+---
 
 ## **Tujuan Praktikum**
 
@@ -19,6 +20,52 @@
 2. Menggunakan method dengan fungsi tambah, tampilkan, ubah, dan hapus data.
 3. Menerapkan dasar-dasar manipulasi data dalam objek.
 
+---
+
+## **Materi Praktikum (Ringkasan Sesuai Modul)**
+
+Berikut ringkasan materi yang diambil dari dokumen praktikum OOP:
+
+### **1. Konsep Dasar OOP**
+
+* **Class & Object**: Class adalah blueprint, object adalah instance dari class.
+* **Atribut & Method**: Atribut = data, Method = fungsi dalam class.
+* **Constructor (`__init__`)**: Dieksekusi saat object dibuat.
+
+### **2. Enkapsulasi**
+
+* Menyembunyikan data agar tidak diakses sembarangan.
+* Atribut yang diawali `__` menjadi private.
+* Menggunakan **property**, **getter**, dan **setter** untuk akses atribut private.
+
+### **3. Inheritance / Pewarisan**
+
+* Class turunan dapat mewarisi atribut & method dari class induk.
+* Digunakan untuk mengurangi duplikasi kode.
+
+### **4. Polimorfisme**
+
+* Method dengan nama sama tetapi perilaku berbeda.
+* Terdiri dari **overloading** dan **overriding**.
+
+---
+
+## **Diagram Class (UML)**
+
+```
++--------------------------+
+|   DaftarNilaiMahasiswa   |
++--------------------------+
+| - data : dict            |
++--------------------------+
+| + tambah(nama, nilai)    |
+| + tampilkan()            |
+| + ubah(nama, nilai)      |
+| + hapus(nama)            |
++--------------------------+
+```
+
+---
 
 ## **Deskripsi Program**
 
@@ -158,24 +205,40 @@ Program utama menggunakan loop `while True` untuk menampilkan menu hingga penggu
 
 ---
 
+## **Diagram Class (UML)**
+
+```
++--------------------------+
+|   DaftarNilaiMahasiswa   |
++--------------------------+
+| - data : dict            |
++--------------------------+
+| + tambah(nama, nilai)    |
+| + tampilkan()            |
+| + ubah(nama, nilai)      |
+| + hapus(nama)            |
++--------------------------+
+```
+
+---
+
 ## **Kesimpulan**
 
-Berikut adalah beberapa poin penting yang dapat disimpulkan dari praktikum ini:
+Berikut kesimpulan akhir dari Praktikum 7, disusun lebih lengkap dan mencakup seluruh materi dasar OOP dari modul:
 
-1. **Pemahaman Konsep OOP**
-   Praktikum ini membantu mahasiswa memahami konsep dasar OOP seperti *class*, *object*, atribut, dan method, serta bagaimana konsep tersebut digunakan dalam program nyata.
+1. **Mahasiswa memahami struktur dasar pemrograman berorientasi objek**, mulai dari class, object, atribut, method, serta constructor. Pemahaman ini merupakan fondasi utama dari pemrograman berbasis OOP.
 
-2. **Penerapan Method untuk Manipulasi Data**
-   Mahasiswa belajar bagaimana membuat method untuk menambah, menampilkan, mengubah, dan menghapus data, sehingga terbiasa mengelola data secara terstruktur menggunakan OOP.
+2. **Konsep enkapsulasi berhasil diterapkan**, baik melalui penggunaan atribut protected/public maupun konsep private pada Python. Praktikum ini juga melatih pemahaman tentang penggunaan getter dan setter untuk mengatur akses terhadap data.
 
-3. **Penggunaan Struktur Data dalam Class**
-   Penggunaan dictionary di dalam class memberikan latihan dalam menggabungkan konsep OOP dan struktur data untuk menciptakan program yang lebih fleksibel dan efisien.
+3. **Penerapan method tambah, tampilkan, ubah, dan hapus membuat mahasiswa menguasai operasi CRUD dalam pendekatan OOP**, sehingga mahasiswa lebih terlatih membuat program yang terstruktur dan rapi.
 
-4. **Perancangan Alur Program dan Logika Menu**
-   Dengan membuat menu interaktif, mahasiswa dilatih untuk berpikir logis dan menyusun alur program yang mudah digunakan oleh pengguna.
+4. **Alur program semakin mudah dipahami melalui menu interaktif**, yang mengajarkan bagaimana membuat program yang berulang (loop), menerima input pengguna, serta mengeksekusi fungsi berbeda dalam satu class.
 
-5. **Persiapan untuk Materi OOP yang Lebih Kompleks**
-   Praktikum ini menjadi dasar penting sebelum mempelajari konsep OOP lanjutan seperti inheritance, polymorphism, dan encapsulation.
+5. **Materi modul seperti class-instance, enkapsulasi, inheritance, dan polymorphism dipahami secara teori**, meskipun program praktikum berfokus pada class dan enkapsulasi. Pemahaman dasar ini menjadi modal penting untuk praktikum OOP lanjutan.
+
+6. **Mahasiswa dapat memahami bagaimana OOP menyederhanakan pengelolaan data**. Semua data dikelola dalam satu objek `DaftarNilaiMahasiswa`, sehingga program lebih mudah dikembangkan, diperluas, dan dipelihara.
+
+7. **Praktikum ini memberikan gambaran nyata penerapan OOP dalam kasus sederhana**, sekaligus mempersiapkan mahasiswa untuk memahami konsep lanjutan seperti pewarisan, overriding, overloading, dan struktur class yang lebih kompleks.
 
 ---
 
