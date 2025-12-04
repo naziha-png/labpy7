@@ -1,4 +1,5 @@
 # Praktikum 7 – Object Oriented Programming (OOP)  
+---
 
 **Nama:** Naziha Raiqi Aribino<br>
 **Kelas:** TI. 25. A2<br>
@@ -6,7 +7,6 @@
 **Mata Kuliah:** Pengantar Pemrograman<br>
 **Dosen:** Agung Nugroho, S.Kom., M.Kom.<br>
 
----
 
 ## **Judul Praktikum: Program Daftar Nilai Mahasiswa Menggunakan Class (OOP)**
 
@@ -16,8 +16,6 @@
 1. Menerapkan konsep Class dan Object pada Python.
 2. Menggunakan method dengan fungsi tambah, tampilkan, ubah, dan hapus data.
 3. Menerapkan dasar-dasar manipulasi data dalam objek.
-
----
 
 ## **Materi Praktikum**
 
@@ -44,17 +42,6 @@
 * Terdiri dari **overloading** dan **overriding**.
 
 ---
-
------------------------+
-|   DaftarNilaiMahasiswa   |
-+--------------------------+
-| - data : dict            |
-+--------------------------+
-| + tambah(nama, nilai)    |
-| + tampilkan()            |
-| + ubah(nama, nilai)      |
-| + hapus(nama)            |
-+--------------------------+
 
 ````
 
