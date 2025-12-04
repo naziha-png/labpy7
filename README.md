@@ -5,12 +5,9 @@
 **NIM:** 312510232<br>
 **Mata Kuliah:** Pengantar Pemrograman<br>
 **Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.<br>
-
 ---
 
-## **Judul Praktikum**
-
-**Program Daftar Nilai Mahasiswa Menggunakan Class (OOP)**
+## **Judul Praktikum: Program Daftar Nilai Mahasiswa Menggunakan Class (OOP)**
 
 
 ## **Tujuan Praktikum**
@@ -19,10 +16,9 @@
 2. Menggunakan method dengan fungsi tambah, tampilkan, ubah, dan hapus data.
 3. Menerapkan dasar-dasar manipulasi data dalam objek.
 
+---
 
-## **Materi Praktikum (Ringkasan Sesuai Modul)**
-
-Berikut ringkasan materi yang diambil dari dokumen praktikum OOP:
+## **Materi Praktikum**
 
 ### **1. Konsep Dasar OOP**
 
@@ -48,10 +44,7 @@ Berikut ringkasan materi yang diambil dari dokumen praktikum OOP:
 
 ---
 
-## **Diagram Class (UML)**
-
-```
-+--------------------------+
+-----------------------+
 |   DaftarNilaiMahasiswa   |
 +--------------------------+
 | - data : dict            |
@@ -61,25 +54,23 @@ Berikut ringkasan materi yang diambil dari dokumen praktikum OOP:
 | + ubah(nama, nilai)      |
 | + hapus(nama)            |
 +--------------------------+
-```
+
+````
 
 ---
 
 ## **Deskripsi Program**
-
 Program ini dibuat untuk mengelola daftar nilai mahasiswa menggunakan pendekatan OOP. Program mencakup fitur:
-
-* Menambahkan data mahasiswa (nama & nilai)
-* Menampilkan seluruh data mahasiswa
-* Mengubah nilai mahasiswa berdasarkan nama
-* Menghapus data mahasiswa berdasarkan nama
+- Menambahkan data mahasiswa (nama & nilai)
+- Menampilkan seluruh data mahasiswa
+- Mengubah nilai mahasiswa berdasarkan nama
+- Menghapus data mahasiswa berdasarkan nama
 
 Semua proses disimpan dalam satu class bernama `DaftarNilaiMahasiswa`.
 
 ---
 
 ## **Kode Program Lengkap**
-
 ```python
 class DaftarNilaiMahasiswa:
     def __init__(self):
@@ -148,7 +139,7 @@ while True:
 
     else:
         print("Pilihan tidak valid, coba lagi.")
-```
+````
 
 ---
 
@@ -192,18 +183,64 @@ while True:
 
 ## **Penjelasan Program**
 
-Program ini menggunakan class untuk menyimpan data mahasiswa di dalam dictionary (`self.data`). Setiap method bekerja sebagai berikut:
+Program ini dibuat berdasarkan instruksi pada *Tugas Praktikum*, yaitu membuat program daftar nilai mahasiswa menggunakan konsep **Class**, **Method**, dan **Object**. Berikut penjelasan lengkap fungsi-fungsi dalam program:
 
-* **tambah()** → menambahkan nama & nilai ke dalam dictionary.
-* **tampilkan()** → menampilkan seluruh daftar data.
-* **ubah()** → mengganti nilai mahasiswa berdasarkan nama.
-* **hapus()** → menghapus data berdasarkan nama.
+### **1. Class `DaftarNilaiMahasiswa`**
 
-Program utama menggunakan loop `while True` untuk menampilkan menu hingga pengguna memilih keluar.
+Class ini berfungsi sebagai wadah untuk menyimpan dan mengelola data mahasiswa. Data disimpan di dalam atribut:
+
+* `self.data` → dictionary yang menyimpan pasangan nama dan nilai mahasiswa.
+
+### **2. Method–method dalam class**
+
+#### **a. `tambah(nama, nilai)`**
+
+* Menambahkan data mahasiswa baru ke dictionary.
+* Jika nama sudah ada, nilai akan diganti.
+* Menampilkan konfirmasi bahwa data berhasil ditambahkan.
+
+#### **b. `tampilkan()`**
+
+* Menampilkan seluruh daftar nilai mahasiswa.
+* Jika data masih kosong, akan muncul pesan "Belum ada data mahasiswa".
+
+#### **c. `ubah(nama, nilai_baru)`**
+
+* Mengubah nilai mahasiswa berdasarkan nama.
+* Jika nama tidak ditemukan, akan muncul pesan kesalahan.
+
+#### **d. `hapus(nama)`**
+
+* Menghapus data mahasiswa berdasarkan nama.
+* Jika nama tidak ada, menampilkan pesan bahwa data tidak ditemukan.
+
+### **3. Program Utama (Main Program)**
+
+* Program berjalan menggunakan loop `while True`.
+* Pengguna memilih menu untuk menambah, menampilkan, mengubah, menghapus, atau keluar.
+* Program berjalan berulang sampai pengguna memilih menu **Keluar**.
+
+### **4. Penjelasan Tugas Praktikum Sesuai Modul**
+
+Tugas praktikum meminta pembuatan program OOP yang memiliki:
+
+* **Method tambah()** → ✔ dibuat
+* **Method tampilkan()** → ✔ dibuat
+* **Method hapus(nama)** → ✔ dibuat
+* **Method ubah(nama)** → ✔ dibuat
+
+Tugas juga meminta:
+
+* **Diagram class** → ✔ tersedia di bawah
+* **Flowchart** → ✔ tersedia
+* **Penjelasan program** → ✔ ditulis di bagian ini
+* **README lengkap** → ✔ seluruh dokumen ini berfungsi sebagai laporan README
+
+Semua instruksi tugas sudah dipenuhi secara lengkap.
 
 ---
 
-## **Diagram Class (UML)**
+## **Diagram Class (UML) (UML)**
 
 ```
 +--------------------------+
@@ -222,7 +259,6 @@ Program utama menggunakan loop `while True` untuk menampilkan menu hingga penggu
 
 ## **Kesimpulan**
 
-Berikut kesimpulan akhir dari Praktikum 7, disusun lebih lengkap dan mencakup seluruh materi dasar OOP dari modul:
 
 1. **Mahasiswa memahami struktur dasar pemrograman berorientasi objek**, mulai dari class, object, atribut, method, serta constructor. Pemahaman ini merupakan fondasi utama dari pemrograman berbasis OOP.
 
