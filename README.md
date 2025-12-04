@@ -1,10 +1,10 @@
 # Praktikum 7 – Object Oriented Programming (OOP)
 
-**Nama:** Naziha Raiqi Aribino
-**Kelas:** TI.25.A2
-**NIM:** 312510232
-**Mata Kuliah:** Pengantar Pemrograman
-**Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.
+**Nama:** Naziha Raiqi Aribino<br>
+**Kelas:** TI.25.A2<br>
+**NIM:** 312510232<br>
+**Mata Kuliah:** Pengantar Pemrograman<br>
+**Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.<br>
 
 ---
 
@@ -12,7 +12,6 @@
 
 **Program Daftar Nilai Mahasiswa Menggunakan Class (OOP)**
 
----
 
 ## **Tujuan Praktikum**
 
@@ -20,7 +19,6 @@
 2. Menggunakan method dengan fungsi tambah, tampilkan, ubah, dan hapus data.
 3. Menerapkan dasar-dasar manipulasi data dalam objek.
 
----
 
 ## **Deskripsi Program**
 
@@ -181,4 +179,4 @@ Berikut adalah beberapa poin penting yang dapat disimpulkan dari praktikum ini:
 
 ---
 
-**Selesai.****
+**Selesai.**
